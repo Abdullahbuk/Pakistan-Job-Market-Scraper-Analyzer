@@ -4,7 +4,7 @@ A Python automation project that scrapes job listings, cleans the data, and gene
 
 ## Features
 
-- Scrapes job listings (title, company, location, salary) from Indeed
+- Scrapes job listings (title, company, location, salary) from Rozee.pk
 - Cleans and standardizes raw data using pandas
 - Generates 4 analysis charts automatically
 - Modular code — each step is a separate, clean module
@@ -60,10 +60,9 @@ python analyzer.py   # Step 3: Analyze
 
 ## Tech Stack
 
-- `requests` — HTTP requests
-- `BeautifulSoup4` — HTML parsing
+- `selenium` — Browser automation & scraping
 - `pandas` — Data cleaning
-- `matplotlib` + `seaborn` — Visualization
+- `matplotlib` — Visualization
 
 ## Author
 
